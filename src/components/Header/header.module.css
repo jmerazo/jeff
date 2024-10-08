@@ -2,10 +2,10 @@
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0); /* Fondo translúcido */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo translúcido */
     -webkit-backdrop-filter: blur(10px); /* Efecto de blur glass para Safari */
     backdrop-filter: blur(10px); /* Efecto de blur glass para otros navegadores */
-    padding: 1rem 2rem; /* Aumenta el padding lateral */
+    padding: 1rem 2rem;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -14,34 +14,50 @@
     z-index: 1000;
 }
 
-.header nav {
+.nav {
     display: flex;
+    align-items: center; /* Alinea verticalmente los enlaces y el ícono */
     gap: 1.5rem;
 }
 
-.header a {
+.nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
-    padding: 8px 12px; /* Mejora la área de clic */
+    padding: 8px 12px;
+    display: flex;
+    align-items: center; /* Alinea el contenido verticalmente dentro del enlace */
 }
 
-.header a:hover {
+.nav a:hover {
     color: #ddd;
 }
 
+.perfil img {
+    width: 42px; /* Ajusta el tamaño deseado */
+    height: 42px;
+    margin-bottom: -7px; /* Ajusta el valor según sea necesario para alineación */
+    vertical-align: middle; /* Alineación vertical con el texto */
+    transition: transform 0.3s ease;
+}
+
+.perfil:hover img {
+    transform: scale(1.1);
+}
+
+/* Modo oscuro */
 @media (prefers-color-scheme: dark) {
     .header {
         background-color: rgba(23, 23, 23, 0.8);
         color: white;
     }
 
-    .header a {
+    .nav a {
         color: white;
     }
 
-    .header a:hover {
+    .nav a:hover {
         color: #ddd;
     }
 }

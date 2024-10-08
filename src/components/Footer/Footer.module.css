@@ -1,0 +1,12 @@
+.footer {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+    color: white;
+    background: linear-gradient(to top, rgb(28, 28, 28), rgba(0, 0, 0, 0));
+    -webkit-backdrop-filter: blur(10px); /* Efecto de blur glass para Safari */
+    backdrop-filter: blur(10px); /* Efecto de blur glass para otros navegadores */
+}
+  
+  

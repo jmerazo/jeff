@@ -22,6 +22,21 @@ export default function Home() {
         <p className={styles.description}>
           Ingeniero de Sistemas y Desarrollador Full Stack junior, enfocado en Backend, con experiencia en proyectos gubernamentales. Apasionado por el desarrollo de soluciones eficientes y el aprendizaje continuo.
         </p>
+
+        <div className={styles.experience}>
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3 3H21C21.5523 3 22 3.44772 22 4V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3ZM4 5V19H20V5H4ZM20 12L16.4645 15.5355L15.0503 14.1213L17.1716 12L15.0503 9.87868L16.4645 8.46447L20 12ZM6.82843 12L8.94975 14.1213L7.53553 15.5355L4 12L7.53553 8.46447L8.94975 9.87868L6.82843 12ZM11.2443 17H9.11597L12.7557 7H14.884L11.2443 17Z"></path>
+            </svg>
+            +2 años de experiencia en desarrollo web
+          </span>
+        </div>
+
+        <a href="/docs/cv-jeff.pdf" download>
+          <button className={styles.downloadCV}>
+            Descargar CV
+          </button>
+        </a>
       </section>
 
       {/* Experiencia Laboral */}
@@ -44,156 +59,148 @@ export default function Home() {
   <div className={styles.skillsList}>
     {/* Lenguajes */}
     <div className={styles.skill}>
-      <Image src="/icons/python.png" alt="Python" width={32} height={32} />
+      <Image src="/logos/python.png" alt="Python" width={32} height={32} />
       <span>Python</span>
     </div>
     <div className={styles.skill}>
-      <Image src="/icons/javascript.png" alt="JavaScript" width={32} height={32} />
+      <Image src="/logos/javascript.png" alt="JavaScript" width={32} height={32} />
       <span>JavaScript</span>
     </div>
     <div className={styles.skill}>
-      <Image src="/icons/php.png" alt="PHP" width={32} height={32} />
+      <Image src="/logos/php.png" alt="PHP" width={32} height={32} />
       <span>PHP</span>
     </div>
     <div className={styles.skill}>
-      <Image src="/icons/csharp.png" alt="C#" width={32} height={32} />
+      <Image src="/logos/csharp.png" alt="C#" width={32} height={32} />
       <span>C#</span>
     </div>
 
     {/* Frameworks Frontend */}
     <div className={styles.skill}>
-      <Image src="/icons/vue.png" alt="Vue.js" width={32} height={32} />
+      <Image src="/logos/vue3.png" alt="Vue.js" width={32} height={32} />
       <span>Vue 3</span>
     </div>
     <div className={styles.skill}>
-      <Image src="/icons/react.png" alt="React" width={32} height={32} />
+      <Image src="/logos/react.webp" alt="React" width={32} height={32} />
       <span>React</span>
     </div>
     <div className={styles.skill}>
-      <Image src="/icons/angular.png" alt="AngularJS" width={32} height={32} />
+      <Image src="/logos/angular.png" alt="AngularJS" width={32} height={32} />
       <span>AngularJS</span>
     </div>
     <div className={styles.skill}>
-      <Image src="/icons/angular.png" alt="Angular" width={32} height={32} />
+      <Image src="/logos/angular.png" alt="Angular" width={32} height={32} />
       <span>Angular</span>
     </div>
     <div className={styles.skill}>
-      <Image src="/icons/nextjs.png" alt="Next.js" width={32} height={32} />
+      <Image src="/logos/next.png" alt="Next.js" width={32} height={32} />
       <span>Next.js</span>
     </div>
 
     {/* Frameworks Backend */}
     <div className={styles.skill}>
-      <Image src="/icons/django.png" alt="Django" width={32} height={32} />
+      <Image src="/logos/django.png" alt="Django" width={32} height={32} />
       <span>Django</span>
     </div>
     <div className={styles.skill}>
-      <Image src="/icons/flask.png" alt="Flask" width={32} height={32} />
+      <Image src="/logos/flask.png" alt="Flask" width={32} height={32} />
       <span>Flask</span>
     </div>
     <div className={styles.skill}>
-      <Image src="/icons/express.png" alt="Express" width={32} height={32} />
+      <Image src="/logos/expressjs.png" alt="Express" width={32} height={32} />
       <span>Express</span>
     </div>
     <div className={styles.skill}>
-      <Image src="/icons/codeigniter.png" alt="CodeIgniter" width={32} height={32} />
+      <Image src="/logos/codeigniter3.png" alt="CodeIgniter" width={32} height={32} />
       <span>CodeIgniter 3</span>
     </div>
 
     {/* Herramientas */}
     <div className={styles.skill}>
-        <Image src="/icons/nodejs.png" alt="Node.js" width={32} height={32} />
+        <Image src="/logos/nodejs.png" alt="Node.js" width={32} height={32} />
             <span>Node.js</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/git.png" alt="Git" width={32} height={32} />
+            <Image src="/logos/git.png" alt="Git" width={32} height={32} />
             <span>Git</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/github.png" alt="GitHub" width={32} height={32} />
+            <Image src="/logos/github.png" alt="GitHub" width={32} height={32} />
             <span>GitHub</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/pinia.png" alt="Pinia" width={32} height={32} />
+            <Image src="/logos/pinia.png" alt="Pinia" width={32} height={32} />
             <span>Pinia</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/vite.png" alt="Vite" width={32} height={32} />
+            <Image src="/logos/vite.png" alt="Vite" width={32} height={32} />
             <span>Vite</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/lerna.png" alt="Lerna" width={32} height={32} />
-            <span>Lerna</span>
+            <Image src="/logos/apache.png" alt="Apache2" width={32} height={32} />
+            <span>Apache2</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/unity.png" alt="Unity" width={32} height={32} />
+            <Image src="/logos/unity.png" alt="Unity" width={32} height={32} />
             <span>Unity</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/pug.png" alt="Pug" width={32} height={32} />
-            <span>Pug</span>
+            <Image src="/logos/nginx.png" alt="Nginx" width={32} height={32} />
+            <span>Nginx</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/gulp.png" alt="Gulp" width={32} height={32} />
+            <Image src="/logos/gulp.png" alt="Gulp" width={32} height={32} />
             <span>Gulp</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/firebase.png" alt="Firebase" width={32} height={32} />
+            <Image src="/logos/firebase.png" alt="Firebase" width={32} height={32} />
             <span>Firebase</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/recaptcha.png" alt="ReCaptcha 3" width={32} height={32} />
+            <Image src="/logos/recaptcha3.png" alt="ReCaptcha 3" width={32} height={32} />
             <span>ReCaptcha 3</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/docker.png" alt="Docker" width={32} height={32} />
+            <Image src="/logos/docker.png" alt="Docker" width={32} height={32} />
             <span>Docker</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/smtp.png" alt="SMTP" width={32} height={32} />
+            <Image src="/logos/smtp.png" alt="SMTP" width={32} height={32} />
             <span>SMTP</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/openlayers.png" alt="OpenLayers" width={32} height={32} />
+            <Image src="/logos/openlayers.png" alt="OpenLayers" width={32} height={32} />
             <span>OpenLayers</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/trello.png" alt="Trello" width={32} height={32} />
+            <Image src="/logos/trello.png" alt="Trello" width={32} height={32} />
             <span>Trello</span>
           </div>
 
           {/* Bases de Datos */}
           <div className={styles.skill}>
-            <Image src="/icons/mysql.png" alt="MySQL" width={32} height={32} />
+            <Image src="/logos/mysql.png" alt="MySQL" width={32} height={32} />
             <span>MySQL</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/sqlserver.png" alt="SQL Server" width={32} height={32} />
-            <span>SQL Server</span>
+            <Image src="/logos/sonicwall.png" alt="Firewall SonicWall" width={32} height={32} />
+            <span>Firewall SonicWall</span>
           </div>
 
           {/* CMS */}
           <div className={styles.skill}>
-            <Image src="/icons/wordpress.png" alt="WordPress" width={32} height={32} />
+            <Image src="/logos/wordpress.png" alt="WordPress" width={32} height={32} />
             <span>WordPress</span>
           </div>
           <div className={styles.skill}>
-            <Image src="/icons/joomla.png" alt="Joomla" width={32} height={32} />
+            <Image src="/logos/joomla.png" alt="Joomla" width={32} height={32} />
             <span>Joomla</span>
           </div>
 
           {/* Sistemas Operativos */}
           <div className={styles.skill}>
-            <Image src="/icons/windows.png" alt="Windows" width={32} height={32} />
-            <span>Windows</span>
-          </div>
-          <div className={styles.skill}>
-            <Image src="/icons/linux.png" alt="Linux" width={32} height={32} />
-            <span>Linux</span>
-          </div>
-          <div className={styles.skill}>
-            <Image src="/icons/macos.png" alt="MacOS" width={32} height={32} />
-            <span>MacOS</span>
+            <Image src="/logos/linux.png" alt="Linux" width={32} height={32} />
+            <span>Linux / Linux Server</span>
           </div>
         </div>
       </section>
